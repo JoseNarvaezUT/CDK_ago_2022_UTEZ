@@ -8,4 +8,4 @@ RUN pip install -r dependencies.txt
 
 EXPOSE 3000
 
-CMD ["python","webservice.py"]
+CMD ["python","webservices.py"]
