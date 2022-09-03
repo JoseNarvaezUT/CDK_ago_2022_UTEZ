@@ -20,6 +20,7 @@ env'''
     stage('Run') {
       steps {
         sh 'bash run.sh'
+        sh 'docker logs api-rest'
       }
     }
 
