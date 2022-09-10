@@ -24,5 +24,11 @@ env'''
       }
     }
 
+    stage('Test') {
+      steps {
+        sh 'python3 ./test_api/00_test_api.py'
+      }
+    }
+
   }
 }
