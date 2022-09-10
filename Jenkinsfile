@@ -30,5 +30,11 @@ env'''
       }
     }
 
+    stage('Public') {
+      steps {
+        sh './publish.sh'
+      }
+    }
+
   }
 }
